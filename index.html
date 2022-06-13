@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+<div class="wrap" id="wrap">
+    <div class="navigation">
+        <ul class="omni">
+            <li class="list active">
+                <a href="#" class="btn">
+                    <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#" class="btn">
+                    <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                    <span class="text">Profile</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#" class="btn">
+                    <span class="icon"><ion-icon name="chatbubble-outline"></ion-icon></span>
+                    <span class="text">Message</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#" class="btn">
+                    <span class="icon"><ion-icon name="camera-outline"></ion-icon></span>
+                    <span class="text">Photos</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#" class="btn">
+                    <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                    <span class="text">Settings</span>
+                </a>
+            </li>
+            <div class="indecator"></div>
+        </ul>
+    </div>
+</div>
+<div class="wrap2" id="wrap2">
+    <ul class="nim">
+        <li style="--i:7; --clr:#1877f2;" class="nam"><a href="#" class="im"><span class="cho"><i class="fa-brands fa-facebook-f"></i></span>Facebook</a></li>
+        <li style="--i:6; --clr:#25d366;"class="nam"><a href="#" class="im"><span class="cho"><i class="fa-brands fa-whatsapp"></i></span>Whatsapp</a></li>
+        <li style="--i:5; --clr:#1da1f2;"class="nam"><a href="#" class="im"><span class="cho"><i class="fa-brands fa-twitter"></i></span>Twitter</a></li>
+        <li style="--i:4; --clr:#c32aa3;"class="nam"><a href="#" class="im"><span class="cho"><i class="fa-brands fa-instagram"></i></span>Instagram</a></li>
+        <li style="--i:3; --clr:#ff0000;"class="nam"><a href="#" class="im"><span class="cho"><i class="fa-brands fa-youtube"></i></span>Youtube</a></li>
+        <li style="--i:2; --clr:#0a66c2;"class="nam"><a href="#" class="im"><span class="cho"><i class="fa-brands fa-linkedin"></i></span>Linkedin</a></li>
+        <li style="--i:1; --clr:#5D5F62;"class="nam"><a href="#" class="im"><span class="cho"><i class="fa-brands fa-tiktok"></i></span>Tik tok</a></li>
+    </ul>
+</div>
+<div class="wrap1" id="wrap1">
+    <div class="container" id="container">
+            <div class="card">
+                <div class="content">
+                    <h2>01</h2>
+                    <h3>Card One</h3>
+                    <p class="txt">Lorem ipsum dolor sit ament, consectetur adipisicing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    <a href="#" class="bb">Read more</a>
+                </div>
+            </div> <div class="card">
+                <div class="content">
+                    <h2>02</h2>
+                    <h3>Card Two</h3>
+                    <p class="txt">Lorem ipsum dolor sit ament, consectetur adipisicing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    <a href="#" class="bb">Read more</a>
+                </div>
+            </div> <div class="card">
+                <div class="content">
+                    <h2>03</h2>
+                    <h3>Card Three</h3>
+                    <p class="txt">Lorem ipsum dolor sit ament, consectetur adipisicing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    <a href="#" class="bb">Read more</a>
+                </div>
+            </div>
+        </div>
+</div>
+<script src="main.js"></script>
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+<script>
+    VanillaTilt.init(document.querySelectorAll(".card"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare": 1,
+
+    });
+</script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
